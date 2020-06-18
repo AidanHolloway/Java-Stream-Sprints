@@ -23,14 +23,14 @@ public class sprint{
             System.out.println("");
 
             //Loops through ASCII numbers of lowercase alphabet from 'a' to 'z'
-            if (reply.equals("lower")){
+            if ((reply.toLowerCase()).equals("lower")){
                 for (int i = 97; i <= 122; i++) {
                     alphabet[index] = ("" + (char) i);
                     index++;
                 }
             }
             //Turns the above input into their uppercase letter variants
-            else if (reply.equals("upper")) {
+            else if ((reply.toLowerCase()).equals("upper")) {
                 for (int i = 97; i <= 122; i++) {
                     alphabet[index] = ("" + (char) i).toUpperCase();
                     index++;
@@ -40,7 +40,7 @@ public class sprint{
                 System.out.println("Invalid value entered. Exiting program.");
                 System.exit(0);
             }
-            
+
         String output = "";
 
             /*Prints out the alphabet - after every iteration it adds a letter 
