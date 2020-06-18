@@ -36,9 +36,13 @@ public class sprint{
                     index++;
                 }
             }
-      
+            else{
+                System.out.println("Invalid value entered. Exiting program.");
+                System.exit(0);
+            }
+            
         String output = "";
-        
+
             /*Prints out the alphabet - after every iteration it adds a letter 
             to the output variable and prints it in a new line*/
 
