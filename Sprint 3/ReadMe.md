@@ -1,4 +1,4 @@
-So this program was created to display the letters of the alphabet starting from only one letter and then going to 
+This program was created to display the letters of the alphabet starting from only one letter and then going to 
 the next line and adding one more letter. For example:
 A
 AB
